@@ -14,7 +14,7 @@ addButton.addEventListener("click", () => {
     todoInput.value = "";
   }
 });
-
+/* here i added list item function  */
 function addTodoItem(taskText) {
   todoCount++;
   totalTasks++;
