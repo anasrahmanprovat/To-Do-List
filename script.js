@@ -24,7 +24,7 @@ function addTodoItem(taskText) {
   const date = `${now.getDate()}/${now.getMonth() + 1}`;
 
   const listItem = document.createElement("tr");
-
+/* here i added task desc */
   const numCell = document.createElement("td");
   numCell.textContent = todoCount;
 
