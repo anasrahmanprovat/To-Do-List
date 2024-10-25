@@ -36,7 +36,7 @@ function addTodoItem(taskText) {
 
   const dateCell = document.createElement("td");
   dateCell.textContent = date;
-  
+
 /* here i added delete button and task button */
   const statusCell = document.createElement("td");
   const checkbox = document.createElement("input");
@@ -66,7 +66,8 @@ function addTodoItem(taskText) {
     updateSummary();
   });
   deleteCell.appendChild(deleteBtn);
-
+  
+  /* here i added edit button function */
   const editCell = document.createElement("td");
   const editBtn = document.createElement("button");
   editBtn.innerHTML = `<i  class="fa-solid fa-pen-to-square"></i>`;
