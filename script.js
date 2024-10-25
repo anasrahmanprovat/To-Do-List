@@ -19,7 +19,7 @@ function addTodoItem(taskText) {
   todoCount++;
   totalTasks++;
   updateSummary();
-
+   /* here i added list items's date and month */
   const now = new Date();
   const date = `${now.getDate()}/${now.getMonth() + 1}`;
 
