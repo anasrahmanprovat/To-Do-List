@@ -106,7 +106,7 @@ function addTodoItem(taskText) {
 
   todoList.appendChild(listItem);
 }
-
+/* here i added totalTasks  completedTasks pendingTasks function */
 function updateSummary() {
   const pendingTasks = totalTasks - completedTasks;
   summary.textContent = `${totalTasks} Total, ${completedTasks} Completed, ${pendingTasks} Pending`;
